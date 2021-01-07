@@ -1,4 +1,4 @@
 # minecraft-forge 1.16.1
 docker build . -t mc-forge
 
-docker run -d --restart always  -p 25565:25565 -v /opt/mc_forge:/opt/data -v /etc/timezone:/etc/timezone:ro --name mc_forge mc-forge
+docker run -d --restart always  -p 25565:25565 -v /etc/timezone:/etc/timezone:ro --name mc_forge mc-forge
